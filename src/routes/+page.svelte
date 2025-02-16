@@ -44,33 +44,33 @@
       <h1 class="center-header">4th Reef Scored</h1>
     </header>
   
-    <button type="button" class="btn">-</button>
-    <input type="number" name="autonFourthCoral" value="0" class="input w-full max-w-xs" />
-    <button type="button" class="btn">+</button>
+    <button type="button" class="btn" onclick={() => autonFourthCoral--}>-</button>
+    <input type="number" id="autonFourthCoral" name="autonFourthCoral" bind:value="{autonFourthCoral}" class="input w-full max-w-xs" />
+    <button type="button" class="btn" onclick={() => autonFourthCoral++}>+</button>
 
     <header>
       <h1 class="center-header">3rd Reef Scored</h1>
     </header>
 
-    <button type="button" class="btn">-</button>
-    <input type="number" name="autonThirdCoral" value="0" class="input w-full max-w-xs" />
-    <button type="button" class="btn">+</button>
+    <button type="button" class="btn"  onclick={() => autonThirdCoral--}>-</button>
+    <input type="number" name="autonThirdCoral" bind:value="{autonThirdCoral}" class="input w-full max-w-xs" />
+    <button type="button" class="btn" onclick={() => autonThirdCoral++}>+</button>
 
     <header>
       <h1 class="center-header">2nd Reef Scored</h1>
     </header>
 
-    <button type="button" class="btn">-</button>
-    <input type="number" name="autonSecondCoral" value="0" class="input w-full max-w-xs" />
-    <button type="button" class="btn">+</button>
+    <button type="button" class="btn" onclick={() => autonSecondCoral--}>-</button>
+    <input type="number" name="autonSecondCoral" bind:value="{autonSecondCoral}" class="input w-full max-w-xs" />
+    <button type="button" class="btn" onclick={() => autonSecondCoral++}>+</button>
 
     <header>
       <h1 class="center-header">1st Reef Scored</h1>
     </header>
 
-    <button type="button" class="btn">-</button>
-    <input type="number" name="autonFirstCoral" value="0" class="input w-full max-w-xs" />
-    <button type="button" class="btn">+</button>
+    <button type="button" class="btn" onclick={() => autonFirstCoral--}>-</button>
+    <input type="number" name="autonFirstCoral" bind:value="{autonFirstCoral}" class="input w-full max-w-xs" />
+    <button type="button" class="btn" onclick={() => autonFirstCoral++}>+</button>
 
     <label class="label cursor-pointer">
       <span class="label-text">Did they move algae?</span>
@@ -81,17 +81,17 @@
       <h1 class="center-header">Processor Scored</h1>
     </header>
 
-    <button type="button" class="btn">-</button>
-    <input type="number" name="autonProcessor" value="0" class="input w-full max-w-xs" />
-    <button type="button" class="btn">+</button>
+    <button type="button" class="btn" onclick={() => autonProcessor--}>-</button>
+    <input type="number" name="autonProcessor" bind:value="{autonProcessor}" class="input w-full max-w-xs" />
+    <button type="button" class="btn" onclick={() => autonProcessor++}>+</button>
 
     <header>
       <h1 class="center-header">Algae Scored in Barge</h1>
     </header>
 
-    <button type="button" class="btn">-</button>
-    <input type="number" name="autonBarge" value="0" class="input w-full max-w-xs" />
-    <button type="button" class="btn">+</button>
+    <button type="button" class="btn" onclick={() => autonBarge--}>-</button>
+    <input type="number" name="autonBarge" bind:value="{autonBarge}" class="input w-full max-w-xs" />
+    <button type="button" class="btn" onclick={() => autonBarge++}>+</button>
 
     <!-- Teleop Section -->
     <header>
@@ -102,49 +102,49 @@
       <h1 class="center-header">4th Reef Scored</h1>
     </header>
 
-    <button type="button" class="btn">-</button>
-    <input type="number" name="teleopFourthCoral" value="0" class="input w-full max-w-xs" />
-    <button type="button" class="btn">+</button>
+    <button type="button" class="btn" onclick={() => teleopFourthCoral--}>-</button>
+    <input type="number" name="teleopFourthCoral" bind:value="{teleopFourthCoral}" class="input w-full max-w-xs" />
+    <button type="button" class="btn" onclick={() => teleopFourthCoral++}>+</button>
 
     <header>
       <h1 class="center-header">3rd Reef Scored</h1>
     </header>
 
-    <button type="button" class="btn">-</button>
-    <input type="number" name="teleopThirdCoral" value="0" class="input w-full max-w-xs" />
-    <button type="button" class="btn">+</button>
+    <button type="button" class="btn" onclick={() => teleopThirdCoral--}>-</button>
+    <input type="number" name="teleopThirdCoral" bind:value="{teleopThirdCoral}" class="input w-full max-w-xs" />
+    <button type="button" class="btn" onclick={() => teleopThirdCoral++}>+</button>
 
     <header>
       <h1 class="center-header">2nd Reef Scored</h1>
     </header>
 
-    <button type="button" class="btn">-</button>
-    <input type="number" name="teleopSecondCoral" value="0" class="input w-full max-w-xs" />
-    <button type="button" class="btn">+</button>
+    <button type="button" class="btn" onclick={() => autonSecondCoral--}>-</button>
+    <input type="number" name="teleopSecondCoral" bind:value="{autonSecondCoral}" class="input w-full max-w-xs" />
+    <button type="button" class="btn" onclick={() => autonSecondCoral++}>+</button>
 
     <header>
       <h1 class="center-header">1st Reef Scored</h1>
     </header>
 
-    <button type="button" class="btn">-</button>
-    <input type="number" name="teleopFirstCoral" value="0" class="input w-full max-w-xs" />
-    <button type="button" class="btn">+</button>
+    <button type="button" class="btn" onclick={() => autonFirstCoral--}>-</button>
+    <input type="number" name="teleopFirstCoral" bind:value="{autonFirstCoral}" class="input w-full max-w-xs" />
+    <button type="button" class="btn" onclick={() => autonFirstCoral++}>+</button>
 
     <header>
       <h1 class="center-header">Processor Scored</h1>
     </header>
 
-    <button type="button" class="btn">-</button>
-    <input type="number" name="teleopProcessor" value="0" class="input w-full max-w-xs" />
-    <button type="button" class="btn">+</button>
+    <button type="button" class="btn" onclick={() => teleopProcessor--}>-</button>
+    <input type="number" name="teleopProcessor" bind:value="{teleopProcessor}" class="input w-full max-w-xs" />
+    <button type="button" class="btn" onclick={() => teleopProcessor++}>+</button>
 
     <header>
       <h1 class="center-header">Algae Scored in Barge</h1>
     </header>
 
-    <button type="button" class="btn">-</button>
-    <input type="number" name="teleopBarge" value="0" class="input w-full max-w-xs" />
-    <button type="button" class="btn">+</button>
+    <button type="button" class="btn" onclick={() => teleopBarge--}>-</button>
+    <input type="number" name="teleopBarge" bind:value="{teleopBarge}" class="input w-full max-w-xs" />
+    <button type="button" class="btn" onclick={() => teleopBarge++}>+</button>
 
     <label class="label cursor-pointer">
       <span class="label-text">Did they break?</span>
@@ -179,13 +179,30 @@
     type="notes" 
     name="notes"
     placeholder="notes?"
-    class="input place-self-center input-bordered w-full max-w-xs center"
+    class="input place-self-center input-bordered w-f ull max-w-xs center"
   /><br>
 
     <br>
     <button type="submit" class="btn">Submit</button>
   </div>
 </form>
+
+<script>
+
+let autonFourthCoral=$state(0);
+let autonThirdCoral=$state(0);
+let autonSecondCoral=$state(0);
+let autonFirstCoral=$state(0);
+let autonProcessor=$state(0);
+let autonBarge=$state(0);
+let teleopFourthCoral=$state(0);
+let teleopThirdCoral=$state(0)
+let teleopSecondCoral=$state(0);
+let teleopFirstCoral=$state(0);
+let teleopProcessor=$state(0);
+let teleopBarge=$state(0);
+</script>
+
 
 <style>
 input[type="number"]::-webkit-inner-spin-button, 
