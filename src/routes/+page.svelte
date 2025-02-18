@@ -1,4 +1,4 @@
-<form action="DATABASE_URL" method="POST">
+<form method="POST">
   <div class="center-wrapper">
     <br><br><br><br>
 
@@ -10,7 +10,7 @@
       class="input place-self-center input-bordered w-full max-w-xs center"
       required
     /><br>
-<!---->
+<!--match number-->
     <input 
       type="text" 
       name="match_number"
@@ -22,7 +22,7 @@
     <!-- Team Dropdown -->
     <select name="team_number" class="select select-bordered w-full max-w-xs" required>
       <option disabled selected>Team</option>
-      <option value="1">Team 1</option>
+      <option value="834">834 spartechs</option>
       <option value="2">Team 2</option>
       <option value="3">Team 3</option>
       <option value="4">Team 4</option>
@@ -217,7 +217,7 @@ input[type="number"] {
 
   h1 {
     color: goldenrod;
-    font-family: "Comic Sans MS", cursive;
+    font-family: "arial", ;
   }
 
   .center-wrapper {
