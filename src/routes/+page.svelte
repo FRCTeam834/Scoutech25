@@ -205,6 +205,22 @@ let teleopBarge=$state(0);
 
 
 <style>
+ body, html {
+    background-color: rgba(52, 52, 52, 0.281);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .center-wrapper {
+    background-color: rgba(52, 52, 52, 0.281);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+
 input[type="number"]::-webkit-inner-spin-button, 
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
@@ -216,7 +232,7 @@ input[type="number"] {
 }
 
   h1 {
-    color: goldenrod;
+    color: blue;
     font-family: "arial", ;
   }
 
@@ -230,6 +246,5 @@ input[type="number"] {
 
   .center {
     display: inline-block;
-    border: 3px solid lightpink;
   }
 </style>
