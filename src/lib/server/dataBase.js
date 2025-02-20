@@ -2,13 +2,6 @@ import postgres from 'postgres';
 import { DATABASE_URL } from '$env/static/private';
 
 
-// Initialize PostgreSQL connection
-const sql = postgres(DATABASE_URL, {
-  ssl: 'require',
-});
-
-export default sql;
-
 /**
  * Inserts match data into the database.
  * 
