@@ -232,7 +232,7 @@ input[type="number"] {
 }
 
   h1 {
-    color: blue;
+    color: white;
     font-family: "arial", ;
   }
 
