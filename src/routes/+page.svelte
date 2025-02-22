@@ -32,7 +32,8 @@
 
     <!-- Auton Section -->
     <header>
-      <h1 class="center-header">Auton</h1>
+        <auton class="center-header">Auton </auton>
+      
     </header>
 
     <label class="label cursor-pointer">
@@ -95,7 +96,7 @@
 
     <!-- Teleop Section -->
     <header>
-      <h1 class="center-header">Teleop</h1>
+      <teleop class="center-header">Teleop</teleop>
     </header>
 
     <header>
@@ -205,6 +206,14 @@ let teleopBarge=$state(0);
 
 
 <style>
+  auton{
+    font-weight: bold;
+    color: lightskyblue;
+  }
+  teleop{
+    font-weight: bold;
+    color: lightskyblue;
+  }
  body, html {
     background-color: rgba(52, 52, 52, 0.281);
     margin: 0;
