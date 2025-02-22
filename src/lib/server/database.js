@@ -1,6 +1,8 @@
 import postgres from 'postgres';
 import { DATABASE_URL } from '$env/static/private';
 
+const sql = postgres(DATABASE_URL);
+
 
 /**
  * Inserts match data into the database.
