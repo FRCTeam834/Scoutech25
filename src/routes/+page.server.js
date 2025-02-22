@@ -1,4 +1,5 @@
 /** @satisfies {import('./$types').Actions} */
+import { EFC_9984 } from '$env/static/private';
 import * as db from '$lib/server/database.js';
 
 export const actions = {
@@ -7,32 +8,33 @@ export const actions = {
         const name = data.get('name');
         const match_number = parseInt(data.get('match_number')) || null;
         const team_number = parseInt(data.get("team_number")) || null;
-        const auton_left_community = data.get("auton_left_community") ?? null;
         const autonFourthCoral = data.get("autonFourthCoral") ?? null;
         const autonThirdCoral = data.get("autonThirdCoral") ?? null;
         const autonSecondCoral = data.get("autonSecondCoral") ?? null;
         const autonFirstCoral = data.get("autonFirstCoral") ?? null;
 
         // Convert boolean values to integer (0 or 1)
-        const auton_moved_algae = data.get("auton_moved_algae") === "on" ? 1 : 0;
-        const autonProcessor = data.get("autonProcessor") === "on" ? 1 : 0;
-        const autonBarge = data.get("autonBarge") === "on" ? 1 : 0;
+        const auton_moved_algae = data.get("auton_moved_algae");
+        const auton_left_community = data.get("auton_left_community")  === "1" ? true : false;
+        const autonProcessor = data.get("autonProcessor") === "1" ? 1 : 0;
+        const autonBarge = data.get("autonBarge") === "1" ? 1 : 0;
 
         const teleopFourthCoral = data.get("teleopFourthCoral") ?? null;
         const teleopThirdCoral = data.get("teleopThirdCoral") ?? null;
         const teleopSecondCoral = data.get("teleopSecondCoral") ?? null;
         const teleopFirstCoral = data.get("teleopFirstCoral") ?? null;
 
-        const teleopProcessor = data.get("teleopProcessor") === "on" ? 1 : 0;
-        const teleopBarge = data.get("teleopBarge") === "on" ? 1 : 0;
-        const did_break = data.get("did_break") === "on" ? 1 : 0;
+        const teleopProcessor = data.get("teleopProcessor");
+        const teleopBarge = data.get("teleopBarge");
+        const did_break = data.get("did_break") === "1" ? true : false;
         const defense = data.get("defense") ?? null;
 
-        const shallow_climb = data.get("shallow_climb") === "on" ? 1 : 0;
-        const deep_climb = data.get("deep_climb") === "on" ? 1 : 0;
+        const shallow_climb = data.get("shallow_climb") === "1" ? true : false;
+        const deep_climb = data.get("deep_climb") === "1" ? true : false;
         const notes = data.get("notes") ?? null;
 
         // Debugging logs
+        console.log(data.get("did_break"))
         console.log("Form Data:");
         console.log("Name:", name);
         console.log("Match Number:", match_number);

@@ -37,7 +37,7 @@
 
     <label class="label cursor-pointer">
       <span class="label-text">Did they leave community?</span>
-      <input type="checkbox" name="auton_left_community" class="toggle" />
+      <input type="checkbox" name="auton_left_community" value = 1 class="toggle" />
     </label>
 
     <header>
@@ -74,7 +74,7 @@
 
     <label class="label cursor-pointer">
       <span class="label-text">Did they move algae?</span>
-      <input type="checkbox" name="auton_moved_algae" class="toggle" />
+      <input type="checkbox" name="auton_moved_algae" value = 1 class="toggle" />
     </label>
 
     <header>
@@ -148,7 +148,7 @@
 
     <label class="label cursor-pointer">
       <span class="label-text">Did they break?</span>
-      <input type="checkbox" name="did_break" class="toggle" />
+      <input type="checkbox" name="did_break" value = 1 class="toggle" />
     </label>
 
     <header>
@@ -164,12 +164,12 @@
 
     <label class="label cursor-pointer">
       <span class="label-text">Did they shallow climb?</span>
-      <input type="checkbox" name="shallow_climb" class="toggle" />
+      <input type="checkbox" name="shallow_climb" value = 1 class="toggle" />
     </label>
 
     <label class="label cursor-pointer">
       <span class="label-text">Did they deep climb?</span>
-      <input type="checkbox" name="deep_climb" class="toggle" />
+      <input type="checkbox" name="deep_climb" value = 1 class="toggle" />
     </label>
 
     <header>
