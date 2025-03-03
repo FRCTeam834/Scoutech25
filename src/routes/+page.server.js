@@ -13,9 +13,9 @@ export const actions = {
         const autonSecondCoral = data.get("autonSecondCoral") ?? null;
         const autonFirstCoral = data.get("autonFirstCoral") ?? null;
 
-        // Convert boolean values to integer (0 or 1)
-        const auton_moved_algae = data.get("auton_moved_algae");
-        const auton_left_community = data.get("auton_left_community")  === "1" ? true : false;
+        // Convert boolean values to integers (1 or 0)
+        const auton_moved_algae = data.get("auton_moved_algae") === "1" ? 1 : 0;
+        const auton_left_community = data.get("auton_left_community") === "1" ? 1 : 0;
         const autonProcessor = data.get("autonProcessor") === "1" ? 1 : 0;
         const autonBarge = data.get("autonBarge") === "1" ? 1 : 0;
 
@@ -26,15 +26,15 @@ export const actions = {
 
         const teleopProcessor = data.get("teleopProcessor");
         const teleopBarge = data.get("teleopBarge");
-        const did_break = data.get("did_break") === "1" ? true : false;
+        const did_break = data.get("did_break") === "1" ? 1 : 0;
         const defense = data.get("defense") ?? null;
 
-        const shallow_climb = data.get("shallow_climb") === "1" ? true : false;
-        const deep_climb = data.get("deep_climb") === "1" ? true : false;
+        const shallow_climb = data.get("shallow_climb") === "1" ? 1 : 0;
+        const deep_climb = data.get("deep_climb") === "1" ? 1 : 0;
         const notes = data.get("notes") ?? null;
 
         // Debugging logs
-        console.log(data.get("did_break"))
+        console.log(data.get("did_break"));
         console.log("Form Data:");
         console.log("Name:", name);
         console.log("Match Number:", match_number);
