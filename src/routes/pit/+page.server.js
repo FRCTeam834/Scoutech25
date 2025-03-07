@@ -12,15 +12,15 @@ export const actions = {
         const pit_auton_starting_position = data.get('pit_auton_starting_position');
         
         // Convert checkbox values to integers (1 or 0)
-        const pit_fourthcoral = data.get('pit_fourthcoral') === 'on' ? 1 : 0;
-        const pit_thirdcoral = data.get('pit_thirdcoral') === 'on' ? 1 : 0;
-        const pit_secondcoral = data.get('pit_secondcoral') === 'on' ? 1 : 0;
-        const pit_firstcoral = data.get('pit_firstcoral') === 'on' ? 1 : 0;
+        const pit_fourthcoral = data.get('pit_fourthcoral') === 'true' ? 1 : 0;
+        const pit_thirdcoral = data.get('pit_thirdcoral') === 'true' ? 1 : 0;
+        const pit_secondcoral = data.get('pit_secondcoral') === 'true' ? 1 : 0;
+        const pit_firstcoral = data.get('pit_firstcoral') === 'true' ? 1 : 0;
         
         const pit_getcoral = data.get('pit_getcoral') || null;
-        const pit_algae = data.get('pit_algae') === 'on' ? 1 : 0;
-        const pit_barge = data.get('pit_barge') === 'on' ? 1 : 0;
-        const pit_processor = data.get('pit_processor') === 'on' ? 1 : 0;
+        const pit_algae = data.get('pit_algae') === 'true' ? 1 : 0;
+        const pit_barge = data.get('pit_barge') === 'true' ? 1 : 0;
+        const pit_processor = data.get('pit_processor') === 'true' ? 1 : 0;
         const pit_getalgae = data.get('pit_getalgae') || null;
         const pit_notes = data.get('pit_notes') || null;
 
