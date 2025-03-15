@@ -21,33 +21,34 @@
 
     <!-- Team Dropdown -->
     <select name="team_number" class="select select-bordered w-full max-w-xs" required>
-      <option disabled selected>Team</option>
       <option value="25">25 Raider Robotix</option>
-      <option value="87">87 Diablo</option>
-      <option value="102">102 The Robotic Vikings </option>
-      <option value="233">233 Xtreme Heat</option>
-      <option value="293">293 Spike</option>
-      <option value="486">486 Positronic</option>
-      <option value="834">834 SparTechs</option>
-      <option value="1676">1676 The Pascack Pi-oneers</option>
-      <option value="1923">1923 The MidKnight Inventors </option>
-      <option value="2191">2191 Flux Core </option>
-      <option value="2495">2495 Hive Mind </option>
-      <option value="2590">2590 Nemesis </option>
-      <option value="3314">3314 Mechanical Mustangs </option>
-      <option value="3340">3340 Union city MagneGeeks </option>
-      <option value="5438">5438 Technological Terrors </option>
-      <option value="5624">5624 TIGER TECH robotics  </option>
-      <option value="5666">5666 Purple Lightning  </option>
-      <option value="5684">5684 Titans of Tech - Thrive Charter School</option>
-      <option value="5732">5732 ROBOTIGERS  </option>
-      <option value="6897">6897 Astrae Robotics  </option>
-      <option value="8707">8707 The Newark Circuit Breakers  </option>
-      <option value="8714">8714 Robo Griffins  </option>
-      <option value="9100">9100 Robo Roses   </option>
-      <option value="9116">9116 The Canucks & Bolts  </option>
-      <option value="10170">10170 ND robotics   </option>
-      <option value="10366">10366 Builder Bears  </option>
+        <option value="87">87 Diablo</option>
+        <option value="102">102 The gearheads </option>
+        <option value="204">204 Eastern robotic vikings  </option>
+        <option value="223">223 Xtreme Heat</option>
+        <option value="293">293 Spike</option>
+        <option value="486">486 Positronic</option>
+        <option value="752">752 the chargers</option>
+        <option value="834">834 SparTechs</option>
+        <option value="1676">1676 The Pascack Pi-oneers</option>
+        <option value="1923">1923 The MidKnight Inventors </option>
+        <option value="2191">2191 Flux Core </option>
+        <option value="2495">2495 Hive Mind </option>
+        <option value="2590">2590 Nemesis </option>
+        <option value="3314">3314 Mechanical Mustangs </option>
+        <option value="3340">3340 Union city MagneGeeks </option>
+        <option value="5438">5438 Technological Terrors </option>
+        <option value="5624">5624 TIGER TECH robotics  </option>
+        <option value="5666">5666 Purple Lightning  </option>
+        <option value="5684">5684 Titans of Tech - Thrive Charter School</option>
+        <option value="5732">5732 ROBOTIGERS  </option>
+        <option value="6897">6897 Astrae Robotics  </option>
+        <option value="8707">8707 The Newark Circuit Breakers  </option>
+        <option value="8714">8714 Robo Griffins  </option>
+        <option value="9100">9100 Robo Roses   </option>
+        <option value="9116">9116 The Canucks & Bolts  </option>
+        <option value="10170">10170 ND robotics   </option>
+        <option value="10366">10366 Builder Bears  </option>
 
     </select>
     <br>
