@@ -56,8 +56,12 @@
       <select name="pit_auton_starting_position" class="select select-bordered w-full max-w-xs" required>
         <option disabled selected>Auton</option>
         <option value="left">left</option>
-        <option value="mid">midddle</option>
+        <option value="mid">middle</option>
         <option value="right">right</option>
+        <option value="all">all</option>
+        <option value="left-middle">left-middle</option>
+        <option value="left-right">left-right</option>
+        <option value="middle-right">middle-right</option>
     </select>
 
 
@@ -97,8 +101,9 @@
 
     <select name="pit_getcoral" class="select select-bordered w-full max-w-xs" required>
       <option disabled selected>where do they get coral from?</option>
-      <option value="834">human player</option>
-      <option value="834">floor</option>
+      <option value="human player">human player</option>
+      <option value="floor">floor</option>
+      <option value="both">both</option>
   </select>
 
     <div style="margin-bottom: 10px;"></div>
