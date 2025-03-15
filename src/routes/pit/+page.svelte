@@ -12,6 +12,7 @@
         <option value="223">223 Xtreme Heat</option>
         <option value="293">293 Spike</option>
         <option value="486">486 Positronic</option>
+        <option value ="752">752 the chargers</option>
         <option value="834">834 SparTechs</option>
         <option value="1676">1676 The Pascack Pi-oneers</option>
         <option value="1923">1923 The MidKnight Inventors </option>
