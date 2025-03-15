@@ -143,7 +143,7 @@
     </header>
 
     <button type="button" class="btn" onclick={() => autonSecondCoral--}>-</button>
-    <input type="number" name="teleopSecondCoral" bind:value="{autonSecondCoral}" class="input w-full max-w-xs" />
+    <input type="number" name="teleopSecondCoral" bind:value="{teleopSecondCoral}" class="input w-full max-w-xs" />
     <button type="button" class="btn" onclick={() => autonSecondCoral++}>+</button>
 
     <header>
@@ -151,7 +151,7 @@
     </header>
 
     <button type="button" class="btn" onclick={() => autonFirstCoral--}>-</button>
-    <input type="number" name="teleopFirstCoral" bind:value="{autonFirstCoral}" class="input w-full max-w-xs" />
+    <input type="number" name="teleopFirstCoral" bind:value="{teleopFirstCoral}" class="input w-full max-w-xs" />
     <button type="button" class="btn" onclick={() => autonFirstCoral++}>+</button>
 
     <header>
