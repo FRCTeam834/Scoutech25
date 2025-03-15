@@ -142,17 +142,17 @@
       <h1 class="center-header">2nd Reef Scored</h1>
     </header>
 
-    <button type="button" class="btn" onclick={() => autonSecondCoral--}>-</button>
+    <button type="button" class="btn" onclick={() => teleopSecondCoral--}>-</button>
     <input type="number" name="teleopSecondCoral" bind:value="{teleopSecondCoral}" class="input w-full max-w-xs" />
-    <button type="button" class="btn" onclick={() => autonSecondCoral++}>+</button>
+    <button type="button" class="btn" onclick={() => teleopSecondCoral++}>+</button>
 
     <header>
       <h1 class="center-header">1st Reef Scored</h1>
     </header>
 
-    <button type="button" class="btn" onclick={() => autonFirstCoral--}>-</button>
+    <button type="button" class="btn" onclick={() => teleopFirstCoral--}>-</button>
     <input type="number" name="teleopFirstCoral" bind:value="{teleopFirstCoral}" class="input w-full max-w-xs" />
-    <button type="button" class="btn" onclick={() => autonFirstCoral++}>+</button>
+    <button type="button" class="btn" onclick={() => teleopFirstCoral++}>+</button>
 
     <header>
       <h1 class="center-header">Processor Scored</h1>
