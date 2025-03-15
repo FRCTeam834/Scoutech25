@@ -7,8 +7,9 @@
         <option disabled selected>Team</option>
         <option value="25">25 Raider Robotix</option>
         <option value="87">87 Diablo</option>
-        <option value="102">102 The Robotic Vikings </option>
-        <option value="233">233 Xtreme Heat</option>
+        <option value="102">102 The gearheads </option>
+        <option value="204">204 Eastern robotic vikings  </option>
+        <option value="223">223 Xtreme Heat</option>
         <option value="293">293 Spike</option>
         <option value="486">486 Positronic</option>
         <option value="834">834 SparTechs</option>
