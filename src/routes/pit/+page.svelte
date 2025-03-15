@@ -135,7 +135,7 @@
     <option disabled selected>how do they climb?</option>
     <option value="deep">deep</option>
     <option value="shallow">shallow</option>
-    <option value="can't climb">can't climb</option>
+    <option value="no_climb">can't climb</option>
 </select>
 
 <div style="margin-bottom: 10px;"></div>
