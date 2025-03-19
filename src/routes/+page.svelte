@@ -196,6 +196,11 @@
       <input type="checkbox" name="deep_climb" value = 1 class="toggle" />
     </label>
 
+    <label class="label cursor-pointer">
+      <span class="label-text">Did they attempt to climb?</span>
+      <input type="checkbox" name="did_attempt_climb" value = 1 class="toggle" />
+    </label>
+
     <header>
       <h1>Any extra notes</h1>
     </header>

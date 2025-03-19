@@ -12,6 +12,7 @@ export const actions = {
         const autonThirdCoral = data.get("autonThirdCoral") ?? null;
         const autonSecondCoral = data.get("autonSecondCoral") ?? null;
         const autonFirstCoral = data.get("autonFirstCoral") ?? null;
+        
 
         // Convert boolean values to integers (1 or 0)
         const auton_moved_algae = data.get("auton_moved_algae") === "true" ? true : 0;
@@ -31,6 +32,7 @@ export const actions = {
 
         const shallow_climb = data.get("shallow_climb") === "1" ? true : 0;
         const deep_climb = data.get("deep_climb") === "1" ? true : 0;
+        const did_attempt_climb = data.get("did_attempt_climb") === "1" ? true : 0;
         const notes = data.get("notes") ?? null;
 
         // Debugging logs
@@ -67,7 +69,7 @@ export const actions = {
                 auton_moved_algae, autonProcessor, autonBarge,
                 teleopFourthCoral, teleopThirdCoral, teleopSecondCoral, teleopFirstCoral,
                 teleopProcessor, teleopBarge, did_break, defense,
-                shallow_climb, deep_climb, notes
+                shallow_climb, deep_climb,did_attempt_climb, notes
             )
         };
     }

@@ -66,6 +66,28 @@
         <option value="middle-right">middle-right</option>
     </select>
 
+    <div style="margin-bottom: 10px;"></div>
+
+    <input 
+      type="text" 
+      name="auton_left_notes"
+      placeholder="left auton?"
+      class="input input-bordered"
+    />
+    <div style="margin-bottom: 10px;"></div>
+    <input 
+      type="text" 
+      name="auton_middle_notes"
+      placeholder="middle auton?"
+      class="input input-bordered"
+    />
+    <div style="margin-bottom: 10px;"></div>
+<input 
+      type="text" 
+      name="auton_right_notes"
+      placeholder="right auton?"
+      class="input input-bordered"
+    />
 
     <div style="margin-bottom: 10px;"></div>
 
@@ -129,11 +151,20 @@
       <input type="checkbox" name="pit_processor" value = 1 class="toggle" />
     </label>
 
+    <input 
+      type="text" 
+      name="cycles"
+      placeholder="how many cycles?"
+      class="input input-bordered"
+    />
+
+    <div style="margin-bottom: 10px;"></div>
+
     
 
   <div style="margin-bottom: 10px;"></div>
 
-  <select name="pit_getalgae" class="select select-bordered w-full max-w-xs" required>
+  <select name="pit_climb" class="select select-bordered w-full max-w-xs" required>
     <option disabled selected>how do they climb?</option>
     <option value="deep">deep</option>
     <option value="shallow">shallow</option>
@@ -141,13 +172,27 @@
 </select>
 
 <div style="margin-bottom: 10px;"></div>
+<input 
+      type="text" 
+      name="pit_defense_notes"
+      placeholder="defense?"
+      class="input input-bordered"
+    />
+
+    <div style="margin-bottom: 10px;"></div>
 
     <input 
     type="text" 
     name="pit_notes"
     placeholder="notes?"
     class="input input-bordered"
+
+    
+
+    
+    
   /> 
+  
 
       <button type="submit" class="btn">Submit</button>
   </div>
