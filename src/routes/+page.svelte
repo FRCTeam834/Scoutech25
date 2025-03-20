@@ -210,7 +210,7 @@
     placeholder="notes?"
     class="input place-self-center input-bordered w-f ull max-w-xs center"
   /><br>
-
+  <input type="file" class="file-input" />
     <br>
     <button type="submit" class="btn">Submit</button>
   </div>
