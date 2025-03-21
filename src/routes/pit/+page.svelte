@@ -195,14 +195,10 @@
     name="pit_notes"
     placeholder="notes?"
     class="input input-bordered"
-
-  
-  />
-  <!--
+  /> 
   <div style="margin-bottom: 10px;"></div>
   <input type="file"name = "pit_pic" class="file-input file-input-ghost" />
   <div style="margin-bottom: 10px;"></div>
-  --> 
 
       <button type="submit" class="btn">Submit</button>
   </div>
