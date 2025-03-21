@@ -21,35 +21,38 @@
 
     <!-- Team Dropdown -->
     <select name="team_number" class="select select-bordered w-full max-w-xs" required>
-      <option value="25">25 Raider Robotix</option>
-        <option value="87">87 Diablo</option>
-        <option value="102">102 The gearheads </option>
-        <option value="204">204 Eastern robotic vikings  </option>
-        <option value="223">223 Xtreme Heat</option>
-        <option value="293">293 Spike</option>
-        <option value="486">486 Positronic</option>
-        <option value="752">752 the chargers</option>
-        <option value="834">834 SparTechs</option>
-        <option value="1676">1676 The Pascack Pi-oneers</option>
-        <option value="1923">1923 The MidKnight Inventors </option>
-        <option value="2191">2191 Flux Core </option>
-        <option value="2495">2495 Hive Mind </option>
-        <option value="2590">2590 Nemesis </option>
-        <option value="3314">3314 Mechanical Mustangs </option>
-        <option value="3340">3340 Union city MagneGeeks </option>
-        <option value="5438">5438 Technological Terrors </option>
-        <option value="5624">5624 TIGER TECH robotics  </option>
-        <option value="5666">5666 Purple Lightning  </option>
-        <option value="5684">5684 Titans of Tech - Thrive Charter School</option>
-        <option value="5732">5732 ROBOTIGERS  </option>
-        <option value="6897">6897 Astrae Robotics  </option>
-        <option value="8707">8707 The Newark Circuit Breakers  </option>
-        <option value="8714">8714 Robo Griffins  </option>
-        <option value="9100">9100 Robo Roses   </option>
-        <option value="9116">9116 The Canucks & Bolts  </option>
-        <option value="10170">10170 ND robotics   </option>
-        <option value="10366">10366 Builder Bears  </option>
-
+      <option value="56">56 R.O.B.B.E  </option>
+      <option value="219">219 Team Impact  </option>
+      <option value="222">222 Tigertrons  </option>
+      <option value="303">303 The T.E.S.T Team  </option>
+      <option value="555">555 Montclair Robotics  </option>
+      <option value="714">714 Panthera  </option>
+      <option value="752">752 The Chargers   </option>
+      <option value="834">834 SparTechs  </option>
+      <option value="1279">1279 cold Fusion   </option>
+      <option value="1640">1640 Sab-Bot-age   </option>
+      <option value="1672">1672 Robo T-Birds   </option>
+      <option value="1676">1676 The Pascack PI-oneers  </option>
+      <option value="1811">1811 FRESH  </option>
+      <option value="2180">2180 Zero Gravity  </option>
+      <option value="3142">3142 Aperture  </option>
+      <option value="4285">4285 Camo-Bots  </option>
+      <option value="5310">5310 Mecha Ravens  </option>
+      <option value="6860">6860 Equitum Robotics  </option>
+      <option value="7045">7045 MCCrusaders  </option>
+      <option value="8075">8075 CyberTigers  </option>
+      <option value="8513">8513 Sisters 1st   </option>
+      <option value="8588">8588 Tech Devils   </option>
+      <option value="8628">8628 Newark School of Global Studies   </option>
+      <option value="8630">8630 CAP ROBOTICS   </option>
+      <option value="8706">8706 MXS Bulldog Bots   </option>
+      <option value="8707">8707 The Newark Circuit Breakers   </option>
+      <option value="8771">8771 PioTech   </option>
+      <option value="9424">9424 E.O. JAG BOTS   </option>
+      <option value="9439">9439 Knights of Polaris  </option>
+      <option value="10069"> 10069 University Academic Charter School   </option>
+      <option value="10480"> 10480 CyberStorm   </option>
+      <option value="10600"> 10600 Two Steps Ahead </option>
     </select>
     <br>
 
@@ -210,8 +213,7 @@
     placeholder="notes?"
     class="input place-self-center input-bordered w-f ull max-w-xs center"
   /><br>
-  <input type="file" class="file-input" />
-    <br>
+
     <button type="submit" class="btn">Submit</button>
   </div>
 </form>
