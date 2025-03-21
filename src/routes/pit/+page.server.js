@@ -1,5 +1,6 @@
 import * as db from '$lib/server/database.js';
-
+import fetch from 'node-fetch'; // Ensure you have node-fetch installed (`npm install node-fetch`)
+import FormData from 'form-data'; // Ensure you have form-data installed (`npm install form-data`)
 
 export const actions = {
     default: async ({ request }) => {
@@ -50,13 +51,43 @@ export const actions = {
             pit_defense_notes,
         });
 
-        // Call your database insertion function
+        // Extract the image (pit_pic) from form data
+        const pit_pic = data.get('pit_pic');
+        let pit_pic_url = null;
+
+        // If a file was uploaded, send it to Google Drive and get the URL
+        if (pit_pic) {
+            const formData = new FormData();
+            formData.append('pit_pic', pit_pic);
+            formData.append('team_number', pit_team_number);
+
+            try {
+                // Send the file to Google Apps Script
+                const response = await fetch('YOUR_GOOGLE_APPS_SCRIPT_URL', {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                const result = await response.json();
+                if (result.success) {
+                    pit_pic_url = result.url; // Get the file URL from the response
+                    console.log('Image uploaded successfully:', pit_pic_url);
+                } else {
+                    console.error('Error uploading file:', result.error);
+                }
+            } catch (error) {
+                console.error('Error sending to Google Apps Script:', error.message);
+            }
+        }
+
+        // Call your database insertion function, passing the image URL if available
         return {
             post: await db.pit_insertData(
                 pit_team_number, pit_width, pit_length, pit_auton_starting_position,
                 pit_fourthcoral, pit_thirdcoral, pit_secondcoral, pit_firstcoral,
                 pit_getcoral, pit_algae, pit_barge, pit_processor,
-                pit_climb, pit_notes,auton_left_notes,auton_middle_notes,auton_right_notes,pit_defense_notes,
+                pit_climb, pit_notes, auton_left_notes, auton_middle_notes, auton_right_notes,
+                pit_defense_notes, pit_pic_url // Include the image URL in the insert
             )
         };
     }
