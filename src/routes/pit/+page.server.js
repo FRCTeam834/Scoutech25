@@ -1,6 +1,4 @@
 import * as db from '$lib/server/database.js';
-import fetch from 'node-fetch'; // Ensure you have node-fetch installed (`npm install node-fetch`)
-import FormData from 'form-data'; // Ensure you have form-data installed (`npm install form-data`)
 
 export const actions = {
     default: async ({ request }) => {
