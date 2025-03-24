@@ -184,7 +184,7 @@ export async function pit_insertData(
   pit_processor = pit_processor ?? null;
   pit_climb = pit_climb ?? null;
   pit_notes = pit_notes ?? null;
-  pit_notes = pit_defense_notes ?? null;
+  pit_defense_notes = pit_defense_notes ?? null;
 
   // Debugging log to check inserted values
   console.log("Inserting Pit Data:", {
