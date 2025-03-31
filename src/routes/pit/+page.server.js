@@ -22,8 +22,8 @@ export const actions = {
         const pit_processor = data.get('pit_processor') === "1" ? true : 0;
         const pit_climb = data.get('pit_climb') || null;
         const auton_left_notes = data.get('pit_left_notes') || null;
-        const auton_middle_notes = data.get('pit_left_notes') || null;
-        const auton_right_notes = data.get('pit_left_notes') || null;
+        const auton_middle_notes = data.get('pit_middle_notes') || null;
+        const auton_right_notes = data.get('pit_right_notes') || null;
         const pit_notes = data.get('pit_notes') || null;
         const pit_defense_notes = data.get('pit_defense_notes') || null;
 
@@ -48,5 +48,26 @@ export const actions = {
             auton_right_notes,
             pit_defense_notes,
         });
+        const result = await db.pit_insertData(
+            pit_team_number,
+            pit_width,
+            pit_length,
+            pit_auton_starting_position,
+            pit_fourthcoral,
+            pit_thirdcoral,
+            pit_secondcoral,
+            pit_firstcoral,
+            pit_getcoral,
+            pit_algae,
+            pit_barge,
+            pit_processor,
+            pit_climb,
+            auton_left_notes,
+            auton_middle_notes,
+            auton_right_notes,
+            pit_notes,
+            pit_defense_notes
+        );
+
     }
 }
