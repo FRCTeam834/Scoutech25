@@ -1,5 +1,9 @@
 <br><br><br><br>
-<form action="/pit" method="POST">
+<form action="/pit" method="POST" enctype="multipart/form-data">
+
+<script>
+let checkList ="";
+</script>
 
   <div class="center-wrapper">
       <!-- Team Dropdown -->
@@ -200,7 +204,13 @@
   <input type="file"name = "pit_pic" class="file-input file-input-ghost" />
   <div style="margin-bottom: 10px;"></div>
 
-      <button type="submit" class="btn">Submit</button>
+  
+
+      <button type="submit" class="btn"on:click={
+      checkList+="pit_team_number, " 
+      }>Submit</button>
+
+<input type="text" placeholder="checkList"value = checkList class="input input-ghost" />
   </div>
 </form>
 
@@ -215,6 +225,7 @@
 
 .input-row {
   display: flex;
-  gap: 10px; /* Adjust spacing between inputs */
+  gap: 10px; 
 }
 </style>
+

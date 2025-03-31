@@ -99,11 +99,6 @@
     <input type="number" name="autonFirstCoral" bind:value="{autonFirstCoral}" class="input w-full max-w-xs" />
     <button type="button" class="btn" onclick={() => autonFirstCoral++}>+</button>
 
-    <label class="label cursor-pointer">
-      <span class="label-text">Did they move algae?</span>
-      <input type="checkbox" name="auton_moved_algae" value = 1 class="toggle" />
-    </label>
-
     <header>
       <h1 class="center-header">Processor Scored</h1>
     </header>
@@ -188,6 +183,11 @@
       placeholder="Defense?"
       class="input place-self-center input-bordered w-full max-w-xs center"
     /><br>
+
+    <label class="label cursor-pointer">
+      <span class="label-text">Did they move algae?</span>
+      <input type="checkbox" name="auton_moved_algae" value = 1 class="toggle" />
+    </label>
 
     <label class="label cursor-pointer">
       <span class="label-text">Did they shallow climb?</span>

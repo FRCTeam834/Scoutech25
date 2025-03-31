@@ -107,7 +107,7 @@ export async function insertData(
   });
 
   const post = await sql`
-    INSERT INTO Warrenhills (
+    INSERT INTO lehigh (
       name, match_number, team_number, 
       auton_left_community, autonFourthCoral, autonThirdCoral, autonSecondCoral, autonFirstCoral, auton_moved_algae, autonProcessor, autonBarge,
       teleopFourthCoral, teleopThirdCoral, teleopSecondCoral, teleopFirstCoral, teleopProcessor, teleopBarge,
@@ -205,7 +205,7 @@ export async function pit_insertData(
   });
 
   const post = await sql`
-    INSERT INTO pit_WarrenHills (
+    INSERT INTO pit_lehigh (
       pit_team_number, pit_width, pit_length, 
       pit_auton_starting_position,pit_left_notes,pit_middle_notes,pit_right_notes, pit_fourthcoral, pit_thirdcoral, pit_secondcoral, pit_firstcoral, pit_getcoral, pit_algae,
       pit_barge, pit_processor, pit_climb, pit_notes,pit_defense_notes
