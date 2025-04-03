@@ -54,6 +54,7 @@
         <option value="1923">1923 The MidKnight Inventors  </option>
         <option value="2458">2458 Team Chaos  </option>
         <option value="2495">2495 Hive Mind  </option>
+        <option value="2539">2539 Krypton Cougars</option>
         <option value="2554">2554 The Warhawks   </option>
         <option value="2590">2590 Nemesis  </option>
         <option value="2607">2607 The Fighting RoboVikings  </option>
