@@ -21,9 +21,43 @@
 
     <!-- Team Dropdown -->
     <select name="team_number" class="select select-bordered w-full max-w-xs" required>
-      <option value = "834"> 834 Spartechs </option>
-    </select>
-    <br>
+  <option value="103">103 Cybersonics</option>
+  <option value="272">272 Cyber Crusaders</option>
+  <option value="293">293 SPIKE</option>
+  <option value="316">316 Lunatecs</option>
+  <option value="321">321 RoboLancers</option>
+  <option value="341">341 Miss Daisy</option>
+  <option value="427">427 LANCE-A-LOT</option>
+  <option value="433">433 Firebirds</option>
+  <option value="484">484 Roboforce</option>
+  <option value="484-B">484-B Roboforce</option>
+  <option value="708">708 Hatters Robotics</option>
+  <option value="834">834 The SPArTechs</option>
+  <option value="1218">1218 SCH Robotics</option>
+  <option value="1391">1391 The Metal Moose</option>
+  <option value="1640">1640 Sab-BOT-age</option>
+  <option value="1712">1712 Dawgma</option>
+  <option value="1923">1923 The MidKnight Inventors</option>
+  <option value="2539">2539 Krypton Cougar</option>
+  <option value="2607">2607 The Fighting RoboVikings</option>
+  <option value="2607-B">2607-B The Fighting RoboVikings</option>
+  <option value="3314">3314 Mechanical Mustangs</option>
+  <option value="4373">4373 Roobotics</option>
+  <option value="5181">5181 Explorer Robotics</option>
+  <option value="5401">5401 Fightin’ Robotic Owls</option>
+  <option value="5789">5789 The Other Owls</option>
+  <option value="6808">6808 William Tennent Robotics</option>
+  <option value="7414">7414 RetroRobotics</option>
+  <option value="9015">9015 Questionable Engineering</option>
+  <option value="9094">9094 The Earthquakers</option>
+  <option value="10157">10157 Roman Robotics</option>
+  <option value="10918">10918 Bluesteel Dragons</option>
+  <option value="10979">10979 Tiger Robotics</option>
+  <option value="10989">10989 Blast Robotics</option>
+  <option value="10993">10993 EP Robotics</option>
+</select>
+<br>
+
 
     <!-- Auton Section -->
     <header>
